@@ -1,0 +1,7 @@
+tunisia_mall:
+    resource: "@TunisiaMallBundle/Resources/config/routing.yml"
+    prefix:   /TunisiaMall
+
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation
